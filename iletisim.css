@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+   background-color:  #d9eee1;
+     font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.ortala{
+    margin-left: 210px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3opx 10%;
+    line-height: 1.5;
+}
+
+.cta{
+    margin-left: 500px;
+}
+
+.cba{
+    margin-right: 100px;
+}
+
+.nav__links{
+    list-style: none;
+    text-align: center;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #edf0f1;
+}
+
+.nav__links li a :hover{
+    color: rgba(40, 42, 53, 0.9);
+}
+
+button{
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 145px;
+    margin-top: 30px;
+}
+
+.form{
+    margin: 20px;
+}
+
+.resimKapsayici{
+    position:relative
+}
+
+.resimYazisi {
+    position:absolute;left:10px;top:10px;
+    padding:100px 100px 30px 650px ;
+    color:#0B2027 ;
+}
+
+.photoone{
+    padding: 400px 0px 0px 0px ;
+    float: left;
+}
+
+.moti-yazısı{
+    margin-top: 100px;
+    right: 0;
+    top: 100px;
+    position: absolute;
+    font-size:50px;
+}
+
+.header{
+    padding:100px 0px 0px 50px ;
+    float: left;    
+}
+
+.header h2{
+    color: #edf0f1;
+}
+
+.header h3{
+    color: #edf0f1;
+}
+
+.header h4{
+    color: #edf0f1;
+}
+
+.header a{
+    color: rgba(255, 192, 199, 1);
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+    text-decoration: none;
+}
+
+.learn{
+    position: relative; 
+    text-align: center;
+    font-size: 50px;    
+}
+
+.ulasım{
+    margin-top: 90px !important;
+}
+
+h5{
+    margin-right: 5px !important;
+}
+
+.text{
+    margin-top: 75px;
+}
+
+.texts{
+    margin-top: 300px;
+    font-size: 0.8cm;
+}
+
+.last{
+    width: 300px;
+    height: 350px;
+    background-color: #d9eee1;
+    float: left;
+    margin-top:  100px;
+    margin-left: 140px;
+    border-radius: 5%;
+}
+
+.linkk{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.linkk a{
+    text-decoration: none;
+    color: rgba(40, 42, 53, 1);
+}
+
+.formss{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.yaziii{
+    text-align: center;
+    font-size: larger;
+    
+}
+
+.copyright{
+    color: black;
+    margin-top:50px ;
+    height: 50px;
+    text-align: center;
+    font-size: larger   ;
+    font-weight: bolder ;
+    font-style: inherit;
+}
+
+.map{
+    margin-left: 100px;
+    margin-top: 300px;
+    margin-bottom: 30px;
+}
+
+.schema{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left:100px;
+    box-shadow: 2px 25px 10px rgba(3, 166, 120, 0.7);
+    padding-left:100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.schema img{
+    margin: auto;
+    text-align: center;
+}
+.schema a{
+    text-decoration: none;
+   
+}
+.schema h2 a{
+    text-align: center  ;
+   
+}
+
+
+
+a:link{
+    color: black;
+    
+}
+
+#ytu{
+   
+    margin-right: 10px;
+}
+
+a.active{
+    color: rgba(3, 166, 120, 0.7);
+
+}
+
+
+.btn-nav {
+    background-color: #03a678 !important;
+    color: white !important;
+    width: 120px;
+    font-weight: bold !important;
+}
+      
+.btn-nav:hover{
+    background-color: #242630 !important;
+}
+
+.navbar {
+    padding: 40px !important;
+    font-size: 24px !important;
+    color: white !important;
+    background-color: #EEEEEE;
+}
+      
+.border-color {
+    border: 1px solid #03a678;
+}
+      
+.bg-section {
+    background-color: #242630 !important;
+}
+
+.slogan-searchbar{
+    background-color: #242630 !important;
+}
+
+.color{
+    color: #ffc0c7 !important;
+}

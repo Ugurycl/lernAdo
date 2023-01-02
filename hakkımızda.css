@@ -1,0 +1,260 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat, sans-serif;"
+}
+
+body{
+  background-color: rgba(40, 42, 53, 0.9);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3opx 10%;
+  line-height: 1.5;
+}
+
+.headerback{
+  background-color: rgba(3, 166, 120, 1);
+}
+
+.nav__links{
+  list-style: none;
+  text-align: center;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: #edf0f1;
+}
+
+.nav__links li a :hover{
+  color: rgba(2, 115, 94, 0.5) ;
+}
+
+.cta{
+  margin-left: 500px;
+}
+
+.cba{
+  margin-right: 100px;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: #edf0f1;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: rgba(3, 166, 120, 1);
+}
+
+.back{
+	background-color: #40798c;
+  margin-top: 0px;
+}   
+
+.hakkımızda-kapsayıcı{
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #edf0f1;
+  justify-content: right;
+  background: url(resimler/resim.png.jpg) no-repeat left;
+  background-size: 40%;
+  padding: 100px 0;
+}
+
+.içerik{
+  width: 65%;
+  float: right;
+  background-color: rgba(3, 166, 120, 0.9);
+  padding: 100px;
+  margin: 50px;
+}
+
+.içerik h2{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.içerik h3{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.metin{
+  font-size: 20px;
+  color: rgba(40, 42, 53, 0.9);
+  text-align: justify;
+  margin-bottom: 40px;
+  align-items: right;
+  justify-content: right;
+}
+
+.eğitimler{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+  align-items: center;
+}
+
+.last{
+  width: 300px;
+  height: 300px;
+  background-color:#CFD7C7;
+  float: left;
+  margin-top:  100px ;
+  margin-left: 140px; 
+}
+
+.linkk{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.formss{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.yaziii{
+  text-align: center;
+  font-size: larger;
+}
+
+.copyright{ 
+  margin-top:50px ;
+  height: 50px;
+  text-align: center;
+  font-size: larger   ;
+  font-weight: bolder ;
+  font-style: inherit;
+}
+
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  background-color: #F6F1D1 ;
+  font-size: 150%;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+  
+thead{
+  background-color: rgb(145, 145, 241);
+  color:black;
+}
+
+td, th{
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px 200px 10px 200px;
+}
+
+.Ekip{
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: rgba(255, 192, 199, 1);
+  margin-top: 10px;
+}
+
+.explain{
+  background-color: #edf0f1;
+  border-radius: 10px;
+  box-shadow: 1px 3px 4px 7px #edf0f1;
+  font-size: 150%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+tr.bir{
+  background-color: rgb(216, 203, 252);
+}
+
+tr.iki{
+  background-color: rgb(216, 203, 252);
+}
+
+.copyright{
+  color: #edf0f1;
+  margin-top:50px ;
+  height: 50px;
+  text-align: center;
+  font-size: larger   ;
+  font-weight: bolder ;
+  font-style: inherit;
+}
+
+.iletisim{
+  margin-top:300px ;
+  height: 80px;
+  text-align: center;
+  font-size: larger   ;
+  font-weight: bolder ;
+  font-style: inherit;
+}
+
+.iletisim a{
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.ekip {
+  background-image: url("https://pazarlamaturkiye.com/wp-content/uploads/2018/04/dijital-pazarlama-uzmani.png");
+  width: 1024px;
+} */
+
+
+/* SONRADAN YAZILMIŞ CSSLER*/
+
+.btn-nav {
+    background-color: #03a678 !important;
+    color: white !important;
+    width: 120px;
+    font-weight: bold !important;
+  }
+  
+  .btn-nav:hover{
+    background-color: #242630 !important;
+  }
+  
+  .navbar {
+    padding: 40px !important;
+    font-size: 24px !important;
+    color: white !important;
+    background-color: #EEEEEE;
+  }
+  
+  .border-color {
+    border: 1px solid #03a678;
+  }
+  
+  .bg-section {
+    background-color: #242630 !important;
+  }

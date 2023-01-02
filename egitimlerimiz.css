@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.btn-nav{
+    background-color: #03a678 !important;
+    color: white !important;
+    width: 120px;
+    font-weight: bold !important;
+}
+
+table{
+    margin: 50px;
+}
